@@ -1,6 +1,5 @@
 import settings
-import sys, os, re
-from math import ceil
+import sys, os
 from pathlib import Path
 from multiprocessing.pool import Pool
 from shutil import move, copytree

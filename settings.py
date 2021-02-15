@@ -32,7 +32,7 @@ ALL_TAGS_BLACKLIST = [
     ]
 ]
 
-# Only files with these suffixes will be scanned for tags
+# Only files with these file extensions will be scanned for tags
 # Must be lowercase
 SUFFIX_WHITELIST = [
     ".osu"
@@ -43,7 +43,7 @@ SUFFIX_WHITELIST = [
 #  move (default)
 #  copy
 #  nothing
-OPERATION = "copy"
+OPERATION = "move"
 
 # Should multi-processing be used
 # May or may not result in shorter execution time
